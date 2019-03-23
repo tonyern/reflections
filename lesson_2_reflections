@@ -1,3 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it? When we initialize a repository, it creates the .git files. We need to do it because so it can track commits and files.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers? Staging contains files that are committed and changes are made on it. The files are getting ready to be committed but not there yet for it to be in the repository. I think it can be a good snapshot of keeping track of files I have committed so far.
+
+How can you use the staging area to make sure you have one commit per logical change? We can change one or a few files at a time with the same problem we are trying to fix.
+
+How do the diagrams help you visualize the branch structure? It helps with keeping tabs on things and what previous commits can be reached.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do? A new combined commit is created as a result of the merging of two branches. We represent it that way because the commit has changes and content from the two branches.
